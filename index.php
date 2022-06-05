@@ -19,7 +19,7 @@
         if (isset($_POST['search'])) {
             $searchInput = $_POST['search'];
             $data = sparql_get(
-            "https://03f8-2001-448a-3020-4668-e455-be0d-6710-c1fb.ap.ngrok.io/portallulus",
+            "https://fea9-2001-448a-3020-4668-e455-be0d-6710-c1fb.ap.ngrok.io/portallulus",
             "
             prefix id: <https://portallulus.com/> 
             prefix person: <https://portallulus.com/ns/person#> 
@@ -42,12 +42,16 @@
                     person:fis     ?fis ;
                     person:rata    ?rata ;
                     person:status  ?status .
-                    FILTER (regex (?nama, '${searchInput}', 'i'))
+                    FILTER (   regex (?nama, '$searchInput', 'i')
+                    || regex (?sma, '$searchInput', 'i')
+                    || regex (?nisn, '$searchInput', 'i')
+                    || regex (?status, '$searchInput', 'i')
+                )
             }"
             );
         } else {
             $data = sparql_get(
-            "https://03f8-2001-448a-3020-4668-e455-be0d-6710-c1fb.ap.ngrok.io/portallulus",
+            "https://fea9-2001-448a-3020-4668-e455-be0d-6710-c1fb.ap.ngrok.io/portallulus",
             "
                 prefix id: <https://portallulus.com/> 
                 prefix person: <https://portallulus.com/ns/person#> 
