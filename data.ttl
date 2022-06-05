@@ -1,0 +1,247 @@
+@prefix id: <https://portallulus.com/> .
+@prefix person: <https://portallulus.com/ns/person#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rid:Af-syntax-ns#> .
+
+#Users
+id:A001
+    person:nama      "Diandha Carnatia" ;
+    person:nisn      "5367189371" ;
+    person:sma       "Labschool Bekasi" ;
+    person:pu        "623" ;
+    person:ppu       "704" ;
+    person:pk        "550" ;
+    person:pbm       "726" ;
+    person:kim       "643" ;
+    person:bio       "649" ;
+    person:mtk       "710" ;
+    person:fis       "646" ;
+    person:rata      "647" ;
+    person:status    "Lulus" .
+
+
+id:A002
+    person:nama      "Nadine Annisa" ;
+    person:nisn      "4109201900" ;
+    person:sma       "SMAN 1 Jakarta" ;
+    person:pu        "643" ;
+    person:ppu       "764" ;
+    person:pk        "630" ;
+    person:pbm       "589" ;
+    person:kim       "643" ;
+    person:bio       "764" ;
+    person:mtk       "630" ;
+    person:fis       "589" ;
+    person:rata      "676";
+    person:status    "Lulus" .
+
+id:A003
+    person:nama      "Farhan Maulana" ;
+    person:nisn      "4581729374" ;
+    person:sma       "SMAN 22 Bandung" ;
+    person:pu        "662" ;
+    person:ppu       "586" ;
+    person:pk        "623" ;
+    person:pbm       "612" ;
+    person:kim       "554" ;
+    person:bio       "691" ;
+    person:mtk       "521" ;
+    person:fis       "537" ;
+    person:rata      "612";
+    person:status    "Tidak Lulus" .
+
+id:A004
+    person:nama      "id:Aimas Rahaid:Aian" ;
+    person:nisn      "5162748910" ;
+    person:sma       "SMAN 5 Bandung" ;
+    person:pu        "651" ;
+    person:ppu       "598" ;
+    person:pk        "578" ;
+    person:pbm       "632" ;
+    person:kim       "621" ;
+    person:bio       "553" ;
+    person:mtk       "560" ;
+    person:fis       "614" ;
+    person:rata      "605";
+    person:status    "Tidak Lulus" .
+
+id:A005
+    person:nama      "Putri Saskia" ;
+    person:nisn      "491888920" ;
+    person:sma       "SMAN 21 Jakarta" ;
+    person:pu        "677" ;
+    person:ppu       "721" ;
+    person:pk        "687" ;
+    person:pbm       "601" ;
+    person:kim       "625" ;
+    person:bio       "642" ;
+    person:mtk       "696" ;
+    person:fis       "630" ;
+    person:rata      "687";
+    person:status    "Lulus" .
+
+id:A006
+    person:nama      "Zahra Thahira" ;
+    person:nisn      "6536278519" ;
+    person:sma       "SMAN 65 Jakarta" ;
+    person:pu        "712" ;
+    person:ppu       "672" ;
+    person:pk        "651" ;
+    person:pbm       "509" ;
+    person:kim       "666" ;
+    person:bio       "590" ;
+    person:mtk       "631" ;
+    person:fis       "660" ;
+    person:rata      "642";
+    person:status    "Lulus" .
+
+id:A007
+    person:nama      "Meistia Ayu" ;
+    person:nisn      "6163788910" ;
+    person:sma       "SMAN 65 Jakarta" ;
+    person:pu        "654" ;
+    person:ppu       "690" ;
+    person:pk        "632" ;
+    person:pbm       "571" ;
+    person:kim       "503" ;
+    person:bio       "587" ;
+    person:mtk       "621" ;
+    person:fis       "644" ;
+    person:rata      "627";
+    person:status    "Tidak Lulus" .
+
+id:A008
+    person:nama      "Sri Puspita" ;
+    person:nisn      "6163788910" ;
+    person:sma       "Labschool Bekasi" ;
+    person:pu        "661" ;
+    person:ppu       "673" ;
+    person:pk        "691" ;
+    person:pbm       "600" ;
+    person:kim       "587" ;
+    person:bio       "654" ;
+    person:mtk       "682" ;
+    person:fis       "641" ;
+    person:rata      "656";
+    person:status    "Lulus" .
+
+id:A009
+    person:nama      "Lestari Intan" ;
+    person:nisn      "4019375629" ;
+    person:sma       "SMAN 78 Jakarta" ;
+    person:pu        "728" ;
+    person:ppu       "714" ;
+    person:pk        "670" ;
+    person:pbm       "632" ;
+    person:kim       "610" ;
+    person:bio       "641" ;
+    person:mtk       "639" ;
+    person:fis       "617" ;
+    person:rata      "667";
+    person:status    "Lulus" .
+
+id:A010
+    person:nama      "Guntur Akbar" ;
+    person:nisn      "3019672893" ;
+    person:sma       "SMAN 65 Jakarta" ;
+    person:pu        "598" ;
+    person:ppu       "601" ;
+    person:pk        "634" ;
+    person:pbm       "621" ;
+    person:kim       "576" ;
+    person:bio       "609" ;
+    person:mtk       "625" ;
+    person:fis       "583" ;
+    person:rata      "613";
+    person:status    "Tidak Lulus" .
+
+id:A011
+    person:nama      "Akbar Faisal" ;
+    person:nisn      "4301757920" ;
+    person:sma       "SMAN 4 Jakarta" ;
+    person:pu        "679" ;
+    person:ppu       "651" ;
+    person:pk        "674" ;
+    person:pbm       "593" ;
+    person:kim       "551" ;
+    person:bio       "685" ;
+    person:mtk       "651" ;
+    person:fis       "594" ;
+    person:rata      "645";
+    person:status    "Lulus" .
+
+id:A012
+    person:nama      "Iskandar Putra" ;
+    person:nisn      "5173917389" ;
+    person:sma       "SMAN 3 Bandung" ;
+    person:pu        "689" ;
+    person:ppu       "668" ;
+    person:pk        "591" ;
+    person:pbm       "684" ;
+    person:kim       "606" ;
+    person:bio       "732" ;
+    person:mtk       "713" ;
+    person:fis       "629" ;
+    person:rata      "665";
+    person:status    "Lulus" .
+
+id:A013
+    person:nama      "Mega Putri" ;
+    person:nisn      "4217394011" ;
+    person:sma       "SMAN 5 Bandung" ;
+    person:pu        "597" ;
+    person:ppu       "621" ;
+    person:pk        "509" ;
+    person:pbm       "614" ;
+    person:kim       "635" ;
+    person:bio       "652" ;
+    person:mtk       "599" ;
+    person:fis       "580" ;
+    person:rata      "612";
+    person:status    "Tidak Lulus" .
+
+id:A014
+    person:nama      "Bunga Kasih" ;
+    person:nisn      "1497617849" ;
+    person:sma       "Al-Azhar 1 Jakarta" ;
+    person:pu        "681" ;
+    person:ppu       "632" ;
+    person:pk        "502" ;
+    person:pbm       "696" ;
+    person:kim       "681" ;
+    person:bio       "642" ;
+    person:mtk       "587" ;
+    person:fis       "640" ;
+    person:rata      "622";
+    person:status    "Lulus" .
+
+id:A015
+    person:nama      "Rahma Cayani" ;
+    person:nisn      "9462719299" ;
+    person:sma       "SMAN 65 Jakarta" ;
+    person:pu        "689" ;
+    person:ppu       "591" ;
+    person:pk        "588" ;
+    person:pbm       "643" ;
+    person:kim       "617" ;
+    person:bio       "611" ;
+    person:mtk       "596" ;
+    person:fis       "680" ;
+    person:rata      "628";
+    person:status    "Tidak Lulus" .
+
+id:A016
+    person:nama      "Yuliana Kusuma" ;
+    person:nisn      "4371648901" ;
+    person:sma       "SMAN 78 Jakarta" ;
+    person:pu        "653" ;
+    person:ppu       "599" ;
+    person:pk        "612" ;
+    person:pbm       "729" ;
+    person:kim       "671" ;
+    person:bio       "699" ;
+    person:mtk       "623" ;
+    person:fis       "653" ;
+    person:rata      "667";
+    person:status    "Lulus" .
+
+

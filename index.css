@@ -1,0 +1,103 @@
+body {
+    background-color:#E9D5CA ;
+}
+
+.navbar {
+    background-color: #827397;
+    color:white;
+}
+
+.content {
+    background-image: url("images/background.png");
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 1440px;
+    height:450px;
+    padding-top: 130px;
+}
+
+.text {
+    height: 213px;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 50px;
+    color: white;
+}
+
+
+.searchbox1{
+    background-color: #827397;
+    height: 170px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin-top: -20px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#nama {
+    height: 70px;
+    width:600px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding-left: 20px;
+    font-size: 20px;
+    margin-right: 20px;
+    border-style: none;
+}
+
+#subnama {
+    height: 67px;
+    width: 200px;
+    background: #363062;
+    border-radius: 20px;
+    border-style: none;
+    color:white;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+#subnama:hover {
+    color:#363062;
+    background: #827397;
+}
+
+.result h3 {
+    margin-top: 59px;
+    color:#363062;
+}
+
+.result .resulttbl {
+    background-color: white;
+    width: 1290px;
+    text-align: center;
+    border: 3px solid #363062;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.resulttbl tr td {
+    border: 3px solid #363062;
+}
+
+.judul {
+    background-color:#827397 ;
+    color:white;
+}
+
+
+.footer {
+    background-color: #827397;
+    margin-bottom: 0px;
+    position: absolute;
+    width: 1440px;
+    height: 200px;
+    color:white;
+    padding-top: 45px;
+    margin-top: 39px;
+}
+
+.footer h6 {
+    font-weight: 300;
+    font-size: 15px;
+}
+
